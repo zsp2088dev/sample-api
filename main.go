@@ -19,7 +19,7 @@ func main() {
 	r.GET("/item", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"name": "sample",
-			"price": 100,
+			"price": 200,
 		})
 	})
 
